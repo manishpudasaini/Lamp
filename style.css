@@ -1,0 +1,16 @@
+img{
+    height: 20em;
+    width: 15em;
+    margin-left: 30em;
+}
+button{
+    padding: 7px;
+    border-radius: 10px;
+    width: 4em;
+    height: 3.3em;
+    cursor: pointer;
+} 
+button:hover{
+    transform: translateY(-3px);
+    transition: 0.5s;
+}

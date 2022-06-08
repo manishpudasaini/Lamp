@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function clickMe(){
+            let element = document.getElementById("lamp").src='gallery/on.gif';
+        }
+        function clickMe1(){
+            let element = document.getElementById("lamp").src='gallery/off.gif';
+        }
+    </script>
+</head>
+<body>
+    <img src="gallery/off.gif" id="lamp">
+    <button onclick="clickMe()">ON</button>
+    <button onclick="clickMe1()">OFF</button>
+</body>
+</html>
